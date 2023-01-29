@@ -21,8 +21,8 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "user_name")
-    private String userName;
+    @Column(name = "username")
+    private String username;
 
     @Column(name = "password")
     private String password;
@@ -33,6 +33,6 @@ public class User {
     }
 
     public String getUsername() {
-        return this.userName;
+        return this.username;
     }
 }
