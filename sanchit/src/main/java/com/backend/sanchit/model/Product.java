@@ -1,7 +1,9 @@
 package com.backend.sanchit.model;
 
-import jakarta.persistence.*;
+
 import lombok.*;
+
+import javax.persistence.*;
 
 @Data
 @NoArgsConstructor

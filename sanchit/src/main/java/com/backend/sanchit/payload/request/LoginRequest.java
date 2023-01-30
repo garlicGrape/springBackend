@@ -1,6 +1,7 @@
 package com.backend.sanchit.payload.request;
 
-import jakarta.validation.constraints.NotBlank;
+
+import javax.validation.constraints.NotBlank;
 
 public class LoginRequest {
     @NotBlank
