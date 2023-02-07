@@ -1,6 +1,6 @@
-INSERT INTO roles(name) values('ROLE_USER');
-INSERT INTO roles(name) values('ROLE_MODERATOR')
-INSERT INTO roles(name) values('ROLE_ADMIN')
+INSERT INTO roles(id,name) values(0,'ROLE_USER');   --ROLE_USER must be set to ID value 0
+INSERT INTO roles(id,name) values(1,'ROLE_MODERATOR');
+INSERT INTO roles(id,name) values(2,'ROLE_ADMIN');
 
 Truncate table roles CASCADE;
 
